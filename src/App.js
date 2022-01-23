@@ -73,7 +73,7 @@ function App() {
             <Route path="/resume" exact>
               <ResumePage />
             </Route>
-            <Route path="/projects" exact>
+            <Route path="/project" exact>
               <PortfoliosPage />
             </Route>
             <Route path="/contact" exact>
