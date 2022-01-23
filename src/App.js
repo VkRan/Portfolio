@@ -64,7 +64,7 @@ function App() {
         <MainContentStyled>
 
           <Switching>
-            <Route path={process.env.REACT_APP_PUBLIC_URL + '/'} exact>
+            <Route path="/" exact>
               <HomePage />
             </Route>
             <Route path="/about" exact>
