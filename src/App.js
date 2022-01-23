@@ -64,7 +64,7 @@ function App() {
         <MainContentStyled>
 
           <Switching>
-            <Route path="/Portfolio" exact>
+            <Route path="/" exact>
               <HomePage />
             </Route>
             <Route path="/about" exact>
