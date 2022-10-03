@@ -14,7 +14,7 @@ function HomePage() {
             <div className="typography">
                 <h1>Hi, I'm <span>Vikalp Shishodia</span></h1>
                 <h2>
-                Student | Coder | Web Developer  
+                Student | Programmer | Web Developer  
                 </h2>
                 <div className="icons">
                     <a href="https://www.linkedin.com/in/vikalpshishodia/" target="_blank" className="icon i-linkedin" rel="noopener noreferrer">
@@ -26,6 +26,7 @@ function HomePage() {
                     <a href="https://twitter.com/ShishodiaVikalp" target="_blank" className="icon i-twitter" rel="noopener noreferrer">
                         <TwitterIcon />
                     </a>
+                    <i></i>
                 </div>
             </div>
         </HomePageStyled>

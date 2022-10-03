@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 
-function ResumeItem({year, title, subTitle, textb, text, text2, text3}) {
+function ResumeItem({year, title, subTitle, textb, text, text2, text3, text4}) {
     return (
         <ResumeItemStyled>
             <div className="left-content">
@@ -14,6 +14,7 @@ function ResumeItem({year, title, subTitle, textb, text, text2, text3}) {
                 <p>{text}</p>
                 <p style={{marginTop: 1 + 'em'}}>{text2}</p>
                 <p style={{marginTop: 0.5 + 'em'}}>{text3}</p>
+                <p style={{marginTop: 0.5 + 'em'}}>{text4}</p>
             </div>
         </ResumeItemStyled>
     )

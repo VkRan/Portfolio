@@ -19,15 +19,16 @@ function Resume() {
                 </div>
                 <div className="resume-content">
                     <ResumeItem 
+                        year={'May-July 2022'} 
+                        title={'Software Development Intern'}
+                        subTitle={'SK Info Techies'}
+                        text={'Collaborated in a cross-functional team to come up with solutions and developed services for the clients. Worked with React in frontend, responsiveness, designed schemas for databases and debugging of software.'} 
+                    />
+                    <ResumeItem 
                         year={'Feb-Mar 2021'} 
                         title={'Web Development Intern'}
                         subTitle={'The Sparks Foundation'}
                         text={'Designed a responsive, front end website to integrate payment gateway option for Charity Donation. They motivate and encourage the interns to learn, create, and build new ways of thinking, innovate, and solve problems independently.'} 
-                    />
-                    <ResumeItem 
-                        year={'2021 - Present'} 
-                        title={'Microsoft Student Learn Ambassador'}
-                        text={'Seek out new technologies, explore them, and share that experience and knowledge gained with fellow students through effective communication and organising workshops. I took sessions on Web Development and SQL Server.'} 
                     />
                 </div>
                 <div className="small-title u-small-title-margin">
@@ -38,23 +39,23 @@ function Resume() {
                         year={'2019 - 2023'} 
                         title={'Bachelor of Technology (B.Tech.)'}
                         subTitle={'Delhi Technology University'}
-                        textb={'GPA (till 4th Sem): 8.33/10'}
-                        
-                        text2={'⦿ Head for PR & Publicity in International Organization of Software Developers (Coding Society): Organized Hackathons and SIGs for students.'} 
-                        text3={'⦿ Head for PR in INNOVA (Techno-Management fest of DTU): Organized and managed events in the virtual fest - INNOVA’21'} 
+                        textb={'GPA (till 6th Sem): 8.6'}
+                        text2={'⦿ Microsoft Student Learn Ambassador: Organized seminars on the trending technologies at DTU. Introduced students to SQL Server, Power BI, Azure, Web Development in an effective way.'} 
+                        text3={'⦿ Head for PR & Publicity in IOSD (Coding Society): Organized Hackathons and SIGs for students.'} 
+                        text4={'⦿ Head for PR in INNOVA (Techno-Management fest of DTU): Organized and managed events in the virtual fest - INNOVA’21'} 
                     />
                     <ResumeItem className="resume"
                         year={'2017 - 2019'} 
                         title={'Higher Secondary School Certificate (Class XII)'}
                         subTitle={'DAV Sreshtha Vihar, Delhi'}
-                        textb={'Percentage: 94.3%'} 
+                        textb={'Percentage: 93.8%'} 
                     />
                     <ResumeItem className="resume"
                         year={'2007 - 2017'} 
                         title={'Secondary School Certificate (Class X)'}
                         subTitle={'Air Force School Hindon, Ghaziabad'}
-                        textb={'CGPA: 10/10'} 
-                        text2={'⦿ Won gold medals in Maths and Science Olympiads'} 
+                        textb={'CGPA: 10'} 
+                        text2={'⦿ Won Gold medals in Maths and Science Olympiads'} 
                         text3={'⦿ Member of School Basketball team. Won bronze medal and got selected for Western Air Command Team.'} 
                     />
                 </div>

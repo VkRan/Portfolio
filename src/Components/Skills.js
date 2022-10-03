@@ -13,8 +13,8 @@ function Skills() {
                     <div className="skills">
                         <ProgressBar 
                             title={'C++'}
-                            width={'85%'}
-                            text={'85%'}
+                            width={'90%'}
+                            text={'90%'}
                         />
                         <ProgressBar 
                             title={'HTML5'}
@@ -23,33 +23,33 @@ function Skills() {
                         />
                         <ProgressBar 
                             title={'CSS3'}
+                            width={'90%'}
+                            text={'90%'}
+                        />
+                        <ProgressBar 
+                            title={'JavaScript'}
+                            width={'90%'}
+                            text={'90%'}
+                        />
+                        <ProgressBar 
+                            title={'ReactJS'}
                             width={'85%'}
                             text={'85%'}
                         />
                         <ProgressBar 
-                            title={'JavaScript'}
+                            title={'NodeJS'}
                             width={'80%'}
                             text={'80%'}
                         />
                         <ProgressBar 
-                            title={'ReactJS'}
-                            width={'75%'}
-                            text={'75%'}
-                        />
-                        <ProgressBar 
-                            title={'NodeJS'}
-                            width={'70%'}
-                            text={'70%'}
-                        />
-                        <ProgressBar 
                             title={'Express'}
-                            width={'70%'}
-                            text={'70%'}
+                            width={'80%'}
+                            text={'80%'}
                         />
                         <ProgressBar 
                             title={'MongoDB'}
-                            width={'70%'}
-                            text={'70%'}
+                            width={'80%'}
+                            text={'80%'}
                         />
                     </div>
                 </InnerLayout>

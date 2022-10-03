@@ -22,7 +22,6 @@ function ImageSection() {
                     <div className="info-title">
                         <p>Full Name</p>
                         <p>Age</p>
-                        <p>Nationality </p>
                         <p>Languages </p>
                         <p>Location</p>
 
@@ -30,12 +29,11 @@ function ImageSection() {
                     <div className="info">
                         <p>: Vikalp Shishodia</p>
                         <p>: {age}</p>
-                        <p>: Indian </p>
                         <p>: English, Hindi </p>
                         <p>: Delhi, India</p>
                     </div>
                 </div>
-                <PrimaryButton title={'View Resume'} src={'https://drive.google.com/file/d/16PGe3TnxRoZ-AosOXL5L2wspMTwOwzbz/view?usp=sharing'} />
+                <PrimaryButton title={'View Resume'} src={'https://drive.google.com/file/d/1ilgU4Ks0BP-JHbiX7qWnK2W0BoGxTYdm/view?usp=sharing'} />
             </div>
         </ImageSectionStyled>
     )
